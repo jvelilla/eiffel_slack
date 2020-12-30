@@ -1,0 +1,50 @@
+# OBJS_MESSAGE
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**attachments** | [**LIST [OBJS_MESSAGE_ATTACHMENTS]**](objs_message_attachments.md) |  | [optional] [default to null]
+**blocks** | [**LIST [ANY]**](ANY.md) | This is a very loose definition, in the future, we&#39;ll populate this with deeper schema in this definition namespace. | [optional] [default to null]
+**bot_id** | [**ANY**](.md) |  | [optional] [default to null]
+**bot_profile** | [**OBJS_BOT_PROFILE**](objs_bot_profile.md) |  | [optional] [default to null]
+**client_msg_id** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**comment** | [**OBJS_COMMENT**](objs_comment.md) |  | [optional] [default to null]
+**display_as_bot** | **BOOLEAN** |  | [optional] [default to null]
+**file** | [**OBJS_FILE**](objs_file.md) |  | [optional] [default to null]
+**files** | [**LIST [OBJS_FILE]**](objs_file.md) |  | [optional] [default to null]
+**icons** | [**OBJS_MESSAGE_ICONS**](objs_message_icons.md) |  | [optional] [default to null]
+**inviter** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**is_delayed_message** | **BOOLEAN** |  | [optional] [default to null]
+**is_intro** | **BOOLEAN** |  | [optional] [default to null]
+**is_starred** | **BOOLEAN** |  | [optional] [default to null]
+**last_read** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**latest_reply** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**name** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**old_name** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**parent_user_id** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**permalink** | [**STRING**](STRING.md) |  | [optional] [default to null]
+**pinned_to** | [**LIST [STRING_32]**](STRING_32.md) |  | [optional] [default to null]
+**purpose** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**reactions** | [**LIST [OBJS_REACTION]**](objs_reaction.md) |  | [optional] [default to null]
+**reply_count** | **INTEGER_32** |  | [optional] [default to null]
+**reply_users** | [**LIST [STRING_32]**](STRING_32.md) |  | [optional] [default to null]
+**reply_users_count** | **INTEGER_32** |  | [optional] [default to null]
+**source_team** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**subscribed** | **BOOLEAN** |  | [optional] [default to null]
+**subtype** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**team** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**text** | [**STRING_32**](STRING_32.md) |  | [default to null]
+**thread_ts** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**topic** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**ts** | [**STRING_32**](STRING_32.md) |  | [default to null]
+**type** | [**STRING_32**](STRING_32.md) |  | [default to null]
+**unread_count** | **INTEGER_32** |  | [optional] [default to null]
+**upload** | **BOOLEAN** |  | [optional] [default to null]
+**user** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**user_profile** | [**OBJS_USER_PROFILE_SHORT**](objs_user_profile_short.md) |  | [optional] [default to null]
+**user_team** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**username** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
